@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CanvasExercise/CanvasExercise.vcxproj" Id="cead0e42-5c74-456d-80a3-40325e13ca36" />
+</Solution>
