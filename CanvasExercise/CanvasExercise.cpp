@@ -1,39 +1,7 @@
 #include <iostream>
+#include "Student.h"
 
 using namespace std;
-
-class Student
-{
-public:
-    string firstName;
-    string lastName;
-    int age;
-    // TODO: grades?
-    bool hasRegistered;
-    bool hasFinaid;
-
-    // constructor - method that sets the class up for first use
-    Student(string fname, string lName, int age)
-    {
-        this->firstName = fname;
-        this->lastName = lName;
-        this->age = age;
-        this->hasRegistered = false;
-        this->hasFinaid = false;
-    }
-
-    // function (METHOD)
-    void PrintStudent()
-    {
-        cout << "---------------------------------\n";
-        cout << "First Name: " << firstName << endl;
-        cout << "Last Name: " << lastName << endl;
-        cout << "Age: " << age << endl;
-        cout << "Has Registered: " << hasRegistered << endl;
-        cout << "Has Financial Aid: " << hasFinaid << endl;
-        cout << "---------------------------------\n\n";
-    }
-};
 
 int main()
 {
